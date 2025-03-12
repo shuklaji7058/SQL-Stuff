@@ -1,4 +1,4 @@
-INSERT INTO users (yearly_salary, full_name, current_status) VALUES(0,'Anish SHukla','unemployed');
+INSERT INTO users (yearly_salary, full_name, current_status) VALUES(0,'Anish Shukla','unemployed');
 
 INSERT INTO users(yearly_salary,full_name,current_status) VALUES(20000,'Ravi Shukla','employed');
 
