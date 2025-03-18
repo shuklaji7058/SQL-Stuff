@@ -13,5 +13,5 @@
 -- INSERT INTO products(product_name, price, description, amount_in_stock,image_url)
 -- VALUES('Mouse', 20, 'A mouse for all your needs', 100, 'https://example.com/mouse.jpg');
 
--- ALTER TABLE products
--- ADD COLUMN id SERIAL PRIMARY KEY;
+ALTER TABLE products
+ADD COLUMN id SERIAL PRIMARY KEY;
