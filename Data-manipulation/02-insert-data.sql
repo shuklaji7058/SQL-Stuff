@@ -5,30 +5,30 @@ INSERT INTO sales(
   volume,
   is_recurring,
   is_disputed
-) VALUES -- (
--- --   '2023-01-02',
--- --   'John Doe',
--- --   'Product A',
--- --   100.00,
---   TRUE,
---   FALSE
--- ),
--- (
---   NULL,
---   'Jane Smith',
---   'Product B',
---   200.50,
---   FALSE,
---   TRUE
--- ),
--- (
---   '2023-01-05',
---   'Alice Johnson',
---   'Product C',
---   50.00, 
---   TRUE,
---   FALSE
--- ),
+) VALUES (
+  '2023-01-02',
+  'John Doe',
+  'Product A',
+  100.00,
+  TRUE,
+  FALSE
+),
+(
+  NULL,
+  'Jane Smith',
+  'Product B',
+  200.50,
+  FALSE,
+  TRUE
+),
+(
+  '2023-01-05',
+  'Alice Johnson',
+  'Product C',
+  50.00, 
+  TRUE,
+  FALSE
+),
 (
   '2023-01-10',
   'Bob Brown',

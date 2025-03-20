@@ -1,2 +1,2 @@
 DELETE FROM sales
-WHERE id = 16;
+WHERE id = 15;
