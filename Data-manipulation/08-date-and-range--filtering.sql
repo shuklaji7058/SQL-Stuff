@@ -5,4 +5,4 @@
 -- WHERE volume BETWEEN 100 AND 300;
 
 SELECT * FROM sales
-WHERE is_disputed < FALSE AND TRUE;
+WHERE is_disputed <> FALSE;
