@@ -15,3 +15,42 @@
 
 ALTER TABLE products
 ADD COLUMN id SERIAL PRIMARY KEY;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+CREATE DATABASE dukaan;
+
+CREATE TABLE cheez(
+  cheez_name VARCHAR(200) NOT NULL,
+  cheez_price FLOAT(4,2),
+  cheez_description message TEXT NOT NULL  
+)
+
+id serial PRIMARY KEY,
+ALTER TABLE cheez
+ADD COLUMN id SERIAL PRIMARY KEY,
+UPDATE cheez
+SET cheez_price NUMERIC
