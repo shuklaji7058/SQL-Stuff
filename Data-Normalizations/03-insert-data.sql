@@ -4,11 +4,12 @@
 -- (2,'Mumbai'),
 -- (3,'Bangalore');
 
--- INSERT INTO addresses(id,street, house_number, city_id)
--- VALUES
+INSERT INTO addresses(id,street, house_number, city_id)
+VALUES
 -- (1,'DG Road', '12A', 1),
 -- (2,'MG Road', '12/1', 2),
--- (3,'BG Road', '12/2',3);
+-- (3,'BG Road', '12/2',3),
+(4,'MG Road', '12/3', 1);
 
 -- INSERT INTO users(id,first_name, last_name, email, address_id) 
 -- VALUES
