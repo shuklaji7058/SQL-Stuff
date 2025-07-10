@@ -1,5 +1,5 @@
 INSERT INTO cities (name)
-VALUES ('Berlin'), ('New York'), ('London');
+VALUES ('Berlin'), ('new York'), ('London');
 
 INSERT INTO addresses (street, house_number, city_id)
 VALUES 
